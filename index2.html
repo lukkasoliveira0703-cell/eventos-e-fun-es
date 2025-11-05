@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <script src="script2.js"></script>
+
+    <p id="texto">Lukas</p>
+    <!--onmouseover, qunado o mouse passar aconteceera algo,onmouseout, qunado o mouse sair acontecera algo q eu determinar.-->
+    <div id="caixa" onmouseover="entrar()" onmouseout="sair()" >Passe o mause e veja a cor do fundo mudar!!!</div>
+
+    <button onclick="mudartexto()">Clique aqui e mude o texto</button>
+
+    <input type="text" id="nome" placeholder="Digite seu nome">
+    <p id="resposta"></p>
+
+    <select id="cor" onchange="mudarcor()">
+        <option value="">Escolha uma cor</option>
+        <option value="blue">Azul</option>
+        <option value="red">Vermelho</option>
+        <option value="yellow">Amarelo</option>
+        <option value="green">Verde</option>
+    </select>
+
+</body>
+</html>
